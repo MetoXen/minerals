@@ -1,0 +1,20 @@
+@import './styling/variables.scss';
+
+body {
+  background-color: $background;
+}
+
+
+
+.box {
+  height: 100px;
+  width: 200px;
+  border: 1px solid black ;
+
+  &_tittle {
+    color: red;
+  }
+
+}
+
+
