@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/minerals/static/css/main.c75dbc75.css",
-    "main.js": "/minerals/static/js/main.6ddab4cf.js",
+    "main.css": "/minerals/static/css/main.abaa75f9.css",
+    "main.js": "/minerals/static/js/main.4f4cd11e.js",
     "static/js/787.32b6b7cb.chunk.js": "/minerals/static/js/787.32b6b7cb.chunk.js",
+    "static/media/ametyst.jpg": "/minerals/static/media/ametyst.16ebe55d02ba0d1626a6.jpg",
     "static/media/Aquamarine.jpg": "/minerals/static/media/Aquamarine.735e52de12e7a74c3e06.jpg",
-    "static/media/Emerald6.jpg": "/minerals/static/media/Emerald6.60b4d2a44653ed50002e.jpg",
-    "static/media/ametyst.jpg": "/minerals/static/media/ametyst.2f82634011c65a900827.jpg",
+    "static/media/citrin.jpg": "/minerals/static/media/citrin.b2c461cfdf9ffe4e3145.jpg",
+    "static/media/Emerald6.jpg": "/minerals/static/media/Emerald6.bc237d9a72fe432e79a1.jpg",
     "index.html": "/minerals/index.html",
-    "main.c75dbc75.css.map": "/minerals/static/css/main.c75dbc75.css.map",
-    "main.6ddab4cf.js.map": "/minerals/static/js/main.6ddab4cf.js.map",
+    "main.abaa75f9.css.map": "/minerals/static/css/main.abaa75f9.css.map",
+    "main.4f4cd11e.js.map": "/minerals/static/js/main.4f4cd11e.js.map",
     "787.32b6b7cb.chunk.js.map": "/minerals/static/js/787.32b6b7cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c75dbc75.css",
-    "static/js/main.6ddab4cf.js"
+    "static/css/main.abaa75f9.css",
+    "static/js/main.4f4cd11e.js"
   ]
 }
