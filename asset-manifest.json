@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/minerals/static/css/main.c75dbc75.css",
+    "main.js": "/minerals/static/js/main.6ddab4cf.js",
+    "static/js/787.32b6b7cb.chunk.js": "/minerals/static/js/787.32b6b7cb.chunk.js",
+    "static/media/Aquamarine.jpg": "/minerals/static/media/Aquamarine.735e52de12e7a74c3e06.jpg",
+    "static/media/Emerald6.jpg": "/minerals/static/media/Emerald6.60b4d2a44653ed50002e.jpg",
+    "static/media/ametyst.jpg": "/minerals/static/media/ametyst.2f82634011c65a900827.jpg",
+    "index.html": "/minerals/index.html",
+    "main.c75dbc75.css.map": "/minerals/static/css/main.c75dbc75.css.map",
+    "main.6ddab4cf.js.map": "/minerals/static/js/main.6ddab4cf.js.map",
+    "787.32b6b7cb.chunk.js.map": "/minerals/static/js/787.32b6b7cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c75dbc75.css",
+    "static/js/main.6ddab4cf.js"
+  ]
+}
