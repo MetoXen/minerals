@@ -1,4 +1,4 @@
-export const minerals = [
+const mineralsList = [
     {
         name: "Aquamarine",
         type: "Beryl",
@@ -26,4 +26,45 @@ export const minerals = [
     }
 ]
 
-export default minerals
+export const types = () => {
+    const list = []
+    mineralsList.forEach((mineral) => {
+       if (!list.includes(mineral.type )) {
+        list.push(mineral.type )
+       }
+    })
+
+
+        
+    return list
+}
+
+export const minerals = () => {
+    const list = []
+    mineralsList.forEach((mineral) => {
+        if (!list.includes(mineral.type)) {
+            list.push(mineral.type)
+        }
+
+
+
+    })
+    const sortedData = {}
+    list.forEach((type) => {
+
+        const typeList = []
+        mineralsList.forEach((mineral) => {
+            if (type === mineral.type) {
+                typeList.push(mineral)
+            }
+
+        })
+        sortedData[type] = typeList
+
+
+    })
+    return sortedData
+ 
+}
+
+

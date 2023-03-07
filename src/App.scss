@@ -1,20 +1,17 @@
 @import './styling/variables.scss';
 
+.container {
+    display: flex;
+
+    &_sidebar {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+    }
+}
+
+
+
 body {
-  background-color: $background;
+    user-select: none;
 }
-
-
-
-.box {
-  height: 100px;
-  width: 200px;
-  border: 1px solid black ;
-
-  &_tittle {
-    color: red;
-  }
-
-}
-
-
