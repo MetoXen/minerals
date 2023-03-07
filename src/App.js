@@ -61,7 +61,7 @@ function App() {
 
 
       </div>
-      <button onClick={() => console.log(displayMinerals)}>Display</button>
+    
     </div>
   );
 }

@@ -12,7 +12,7 @@ const SidebarObject = ({ name, data, func }) => {
 
      return(
         <div className="sidebarObject">
-                <div className={`sidebarObject_tittle${selected ? "-selected" : ""}`} onClick={handleSelect}>{name + 's'}</div>
+                <div className={`sidebarObject_title${selected ? "-selected" : ""}`} onClick={handleSelect}>{name + 's'}</div>
                 <div className={`sidebarObject_list ${selected ?"selected" : ""}`}>
                     {
                         data.map((mineral) => {

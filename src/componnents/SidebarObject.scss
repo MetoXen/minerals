@@ -1,21 +1,34 @@
 .sidebarObject {
 
-    &_tittle {
+    &_title {
         font-weight: 700;
         box-shadow: 2px 2px 2px 2px lightgray;
+    
+
+        &:hover {
+            cursor: pointer;
+        }
 
         &-selected {
             font-weight: 700;
             box-shadow: 2px 2px 2px 2px lightgray;
             background-color: lightgray;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
         
     }
 
-    // &_list {
-    
+    &_list {
+        height: 0;
+        overflow: hidden;
+        transition: height 2.5s;
+        
 
-    // } 
+    } 
+    
 
 
 
@@ -33,5 +46,5 @@
 
 
 .selected {
-    height: auto;
+    height: 100% ;
 }

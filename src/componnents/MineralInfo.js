@@ -1,3 +1,4 @@
+import './MineralInfo.scss'
 import { useState } from 'react'
 
 const MineralInfo = ({ mineral, func }) => {
@@ -6,7 +7,7 @@ const MineralInfo = ({ mineral, func }) => {
 
 
     return (
-    <div className="MineralInfo">
+    <div className="mineralinfo">
         <div className="mineralinfo_close" onClick={() => func(mineral.name)} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
 
             {hover ?
